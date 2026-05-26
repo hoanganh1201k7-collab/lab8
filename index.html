@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đào tạo các chuyên ngành 2026 - Khoa CNTT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #08112d;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            color: #ffffff;
+        }
+        .main-title {
+            color: #ef4444;
+            font-weight: 800;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+        .year-highlight {
+            color: #facc15;
+        }
+        .sub-title {
+            font-size: 1.2rem;
+            letter-spacing: 0.5px;
+        }
+        .custom-card {
+            background-color: #111c40;
+            border: 1px solid #1e3a8a;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+            position: relative; 
+            padding: 35px 25px 25px 25px !important; 
+            margin-top: 15px; 
+        }
+        .badge-title {
+            background-color: #dc2626;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            display: inline-flex;
+            align-items: center;
+            font-weight: 600;
+            font-size: 1rem;
+            position: absolute;
+            top: -18px; 
+            left: 20px;
+            z-index: 2;
+        }
+        .real-image {
+            width: 100%;
+            height: 100%;
+            min-height: 220px;
+            object-fit: cover; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+        }
+        .major-list li {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .major-list li i {
+            width: 30px;
+        }
+        .footer-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            padding: 15px !important;
+            margin-top: 0;
+        }
+        .footer-card h6 {
+            margin: 0;
+            font-size: 0.95rem;
+            font-weight: 600;
+            line-height: 1.4;
+            text-align: left;
+        }
+        .card-inner-layout {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            height: 100%;
+        }
+        @media (min-width: 768px) {
+            .card-inner-layout {
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+        .bottom-footer {
+            padding: 20px 30px 15px 30px !important;
+        }
+        .footer-logo-text {
+            line-height: 1.2;
+        }
+        .slogan-text {
+            font-size: 0.9rem;
+            letter-spacing: 1.5px;
+            color: #60a5fa;
+        }
+    </style>
+</head>
+<body>
+<div class="container py-5">
+    <div class="d-flex align-items-center justify-content-center mb-5 flex-column flex-md-row">
+        <div class="me-md-4 mb-3 mb-md-0">
+            <img src="https://online.dainam.edu.vn/public/uploads/main/images/06-09-2025/68bc3e2048c5b.png?v=6.3.0" alt="Logo Đại học Đại Nam" style="max-height: 150px; width: auto;">
+        </div>
+        <div class="text-center text-md-start">
+            <h1 class="main-title text-uppercase mb-2">ĐÀO TẠO CÁC CHUYÊN NGÀNH <span class="year-highlight">2026</span></h1>
+            <h2 class="sub-title text-uppercase text-white mb-0">KHOA CÔNG NGHỆ THÔNG TIN - TRƯỜNG ĐẠI HỌC ĐẠI NAM</h2>
+        </div>
+    </div>
+    <div class="row g-4 mb-4">
+        <div class="col-lg-7">
+            <div class="custom-card h-100">
+                <span class="badge-title"><i class="fas fa-desktop me-2"></i> 1. CÔNG NGHỆ THÔNG TIN</span>
+                <div class="card-inner-layout">
+                    <div style="flex: 1; width: 100%;">
+                        <img src="03d46a00-e047-4bf1-8be9-94ec1d5d4581.png" alt="Ảnh thực hành" class="real-image">
+                    </div>
+                    <div style="flex: 1.2; width: 100%;">
+                        <ul class="list-unstyled major-list mb-0 ps-md-3">
+                            <li><i class="fas fa-microchip text-light"></i> Hệ thống nhúng</li>
+                            <li><i class="fas fa-laptop-code text-info"></i> Phát triển phần mềm</li>
+                            <li><i class="fas fa-robot text-danger"></i> Robot và trí tuệ nhân tạo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5 d-flex flex-column gap-4">
+            <div class="custom-card flex-fill d-flex flex-column justify-content-center">
+                <span class="badge-title"><i class="fas fa-network-wired me-2"></i> 2. HỆ THỐNG THÔNG TIN</span>
+                <div class="d-flex justify-content-around align-items-center fs-1 mt-2">
+                    <i class="fas fa-cloud-bolt" style="color: #a78bfa;"></i>
+                    <i class="fas fa-server" style="color: #9ca3af;"></i>
+                    <i class="fas fa-border-all" style="color: #facc15;"></i>
+                </div>
+            </div>
+            <div class="custom-card flex-fill d-flex flex-column justify-content-center">
+                <span class="badge-title"><i class="fas fa-brain me-2"></i> 3. KHOA HỌC MÁY TÍNH</span>
+                <div class="row text-center w-100 m-0 mt-2">
+                    <div class="col-6">
+                        <i class="fas fa-chart-simple fs-1 text-success mb-2"></i>
+                        <p class="mb-0 fw-semibold">Khoa học dữ liệu</p>
+                    </div>
+                    <div class="col-6">
+                        <i class="fas fa-user-astronaut fs-1 text-danger mb-2"></i>
+                        <p class="mb-0 fw-semibold">Trí tuệ nhân tạo (AI)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row g-4 mt-2">
+        <div class="col-md-4">
+            <div class="custom-card footer-card">
+                <i class="fas fa-user-graduate fs-3 text-warning"></i>
+                <h6>CHƯƠNG TRÌNH<br>ĐÀO TẠO THỰC TIỄN</h6>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="custom-card footer-card">
+                <i class="fas fa-hand-holding-heart fs-3 text-warning"></i>
+                <h6>CƠ HỘI<br>THỰC TẬP</h6>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="custom-card footer-card">
+                <i class="fas fa-globe fs-3 text-info"></i>
+                <h6>HỆ SINH THÁI<br>CÔNG NGHỆ</h6>
+            </div>
+        </div>
+    </div>
+    <section class="custom-card bottom-footer mt-4">
+        <div class="row align-items-center">
+            <div class="col-md-3 mb-3 mb-md-0 text-center text-md-start">
+                <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-1">
+                    <i class="fas fa-globe text-primary me-2"></i>
+                    <a href="https://dainam.edu.vn/vi" class="text-white text-decoration-none" style="font-size: 0.85rem;">www.dainam.edu.vn</a>
+                </div>
+                <div class="footer-logo-text mt-2">
+                    <h5 class="mb-0 text-danger fw-bold text-uppercase">ĐẠI NAM</h5>
+                    <small class="text-white fw-bold text-uppercase" style="font-size: 0.75rem; letter-spacing: 0.5px;">UNIVERSITY</small>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3 mb-md-0 text-center">
+                <div class="d-flex align-items-start justify-content-center">
+                    <i class="fas fa-map-marker-alt text-danger mt-1 me-2"></i>
+                    <p class="mb-0 text-white" style="font-size: 0.9rem; line-height: 1.5;">
+                        Văn phòng Khoa CNTT, Phòng 305, Tòa nhà Central Building,<br>
+                        Trường Đại học Đại Nam
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center text-md-end">
+                <div class="border border-secondary rounded px-3 py-2 d-inline-flex align-items-center">
+                    <i class="fas fa-phone-alt text-danger me-2"></i>
+                    <span class="text-white fw-bold" style="font-size: 0.9rem;">Hotline: 0981 595 599</span>
+                </div>
+            </div>
+        </div>
+        <hr class="border-secondary my-3" style="opacity: 0.5;">
+        <div class="text-center pb-1">
+            <p class="mb-0 text-uppercase fw-bold slogan-text">
+                KHƠI DẬY TIỀM NĂNG - VƯƠN TỚI THÀNH CÔNG
+            </p>
+        </div>
+    </section>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.custom-card').hover(
+            function() {
+                $(this).css({
+                    'transform': 'translateY(-5px)',
+                    'box-shadow': '0 10px 20px rgba(0,0,0,0.4)',
+                    'border-color': '#3b82f6'
+                });
+            }, 
+            function() {
+                $(this).css({
+                    'transform': 'translateY(0)',
+                    'box-shadow': '0 4px 6px rgba(0, 0, 0, 0.1)',
+                    'border-color': '#1e3a8a'
+                });
+            }
+        );
+    });
+</script>
+</body>
+</html>
